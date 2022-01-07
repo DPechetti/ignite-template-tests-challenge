@@ -29,8 +29,6 @@ describe("Modules :: Users :: Use Cases :: Authenticate User", () => {
       password: "batatinha"
     })
 
-    console.log(authorization, 'authorization')
-
     expect(authorization).toHaveProperty("token")
     expect(authorization).toHaveProperty("user")
 
